@@ -24,7 +24,7 @@ module.exports = function(app) {
 
             res.status(200).json({
                 status: data.status,
-                creator: data.creator,
+                creator: "Alpiann",
                 model: data.model,
                 question: data.question,
                 think: data.think,
