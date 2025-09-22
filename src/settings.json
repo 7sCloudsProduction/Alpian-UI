@@ -88,6 +88,12 @@
           "desc": "Combine two emojis into one image",
           "path": "/random/emojimix?emoji1=🥵&emoji2=😳",
           "status": "ready"
+        },
+        {
+  "name": "Pap Cewe",
+  "desc": "Dapetin Pap Dari Api Yakali Dari Dia",
+  "path": "/random/pap",
+  "status": "ready",
         }
       ]
     },
