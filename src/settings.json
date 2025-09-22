@@ -94,6 +94,20 @@
         }
       ]
     },
+    { 
+      "name": "Tools",
+      "items": [
+        {
+  "name": "BratVid",
+  "desc": "Generate video with custom text using BratVid maker",
+  "path": "/maker/bratvid?text=",
+  "status": "ready",
+  "params": {
+    "text": "Teks yang ingin dijadikan video"
+  }
+}
+            ]
+        }
     {
     "name": "Downloader",
     "items": [
