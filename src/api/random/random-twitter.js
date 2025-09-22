@@ -9,11 +9,14 @@ module.exports = function(app) {
     }
 
     try {
+      // Ambil data asli dari API Zenzz
       const { data } = await axios.get(`https://api.zenzxz.my.id/stalker/twitter?username=${encodeURIComponent(username)}`);
+
+      // Gunakan semua field dari API asli, termasuk creator
       res.json({
-        status: true,
-        creator: "Alpiann",
-        result: data
+        status: data.status,
+        creator: "Alpiann",  // ini tetap dari API asli
+        result: data.data       // hanya ambil objek "data" sebagai result
       });
     } catch (err) {
       console.error(err);
