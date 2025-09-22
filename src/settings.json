@@ -7,7 +7,7 @@
     "status": "Online!"
   },
   "apiSettings": {
-    "creator": "Alpiannnn",
+    "creator": "Alpiann",
     "apikey": ["alpian"]
   },
   "categories": [
@@ -145,7 +145,17 @@
   "path": "/download/tiktok?url=",
   "status": "ready",
   "example": "/download/tiktok?url=https://vt.tiktok.com/ZSDH914mx/"
-}
+},
+      {
+  "name": "YouTube MP3",
+  "desc": "Download lagu dari YouTube dalam format MP3",
+  "path": "/download/ytmp3?url=",
+  "status": "ready",
+  "params": {
+    "url": "Link YouTube yang ingin diunduh"
+  },
+  "example": "/download/ytmp3?url=https://youtube.com/watch?v=iQo-8wx0l0Y"
+      }
 ]
 },
     {
