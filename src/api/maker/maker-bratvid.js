@@ -6,19 +6,15 @@ module.exports = function(app) {
       const { text } = req.query;
       if (!text) return res.status(400).json({ status: false, error: 'Parameter text harus diisi' });
 
-      // Stream langsung dari API Elena
-      const response = await axios({
-        method: 'get',
-        url: 'https://api.elena.cantipp.vercel.app/maker/bratvid',
+      // Ambil sebagai arraybuffer tapi jangan konversi aneh
+      const response = await axios.get('https://api.zenzxz.my.id/maker/bratvid', {
         params: { text },
-        responseType: 'stream' // PENTING: stream biar aman
+        responseType: 'arraybuffer'
       });
 
-      // Set header content-type sesuai dari API
-      res.setHeader('Content-Type', response.headers['content-type'] || 'video/mp4');
-
-      // Pipe stream langsung ke client
-      response.data.pipe(res);
+      res.setHeader('Content-Type', 'image/gif'); // GIF biasanya
+      res.setHeader('Content-Length', response.data.byteLength);
+      res.send(Buffer.from(response.data));
 
     } catch (err) {
       console.error(err);
