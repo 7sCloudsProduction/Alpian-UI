@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 module.exports = function(app) {
-    app.get('/ai/bratvid', async (req, res) => {
+    app.get('/maker/bratvid', async (req, res) => {
         try {
             const { text } = req.query;
             if (!text) return res.status(400).send('Parameter text harus diisi');
@@ -9,7 +9,7 @@ module.exports = function(app) {
             // Panggil API BratVid
             const response = await axios.get('https://api.zenzxz.my.id/maker/bratvid', {
                 params: { text },
-                responseType: 'arraybuffer' // ambil sebagai buffer biar bisa kirim video
+                responseType: 'arraybuffer' // ambil langsung buffer video
             });
 
             const buffer = Buffer.from(response.data);
