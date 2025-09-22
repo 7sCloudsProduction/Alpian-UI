@@ -189,6 +189,16 @@
           "params": {
             "q": "Search query"
           }
+        },
+        {
+  "name": "Pinterest Search",
+  "desc": "Cari gambar Pinterest berdasarkan keyword",
+  "path": "/search/pinterest?q=",
+  "status": "ready",
+  "params": {
+    "q": "Kata kunci pencarian"
+  },
+  "example": "/search/pinterest?q=anime"
         }
       ]
     }
