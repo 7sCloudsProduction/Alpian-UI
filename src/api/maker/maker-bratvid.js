@@ -4,12 +4,12 @@ module.exports = function(app) {
     app.get('/maker/bratvid', async (req, res) => {
         try {
             const { text } = req.query;
-            if (!text) return res.status(400).send('Parameter text harus diisi');
+            if (!text) return res.status(400).json({ status: false, error: 'Parameter text harus diisi' });
 
-            // Panggil API BratVid
+            // Panggil API Zenzxz BratVid
             const response = await axios.get('https://api.zenzxz.my.id/maker/bratvid', {
                 params: { text },
-                responseType: 'arraybuffer' // ambil langsung buffer video
+                responseType: 'arraybuffer' // ambil sebagai buffer
             });
 
             const buffer = Buffer.from(response.data);
