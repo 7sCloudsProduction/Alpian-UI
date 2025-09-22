@@ -53,7 +53,13 @@
       "desc": "Lightweight reasoning AI model O4-Mini",
       "path": "/ai/o4-mini?text=hai",
       "status": "ready"
-    }
+    },
+        {
+  "name": "AI ToFigure",
+  "desc": "Mengubah gambar menjadi versi figure / karakter, hasil diupload ke Catbox",
+  "path": "/ai/tofigure?imageUrl=",
+  "status": "ready"
+        }
       ]
     },
     
@@ -93,14 +99,14 @@
     "items": [
     {
   "name": "MediaFire Downloader",
-  "desc": "Download file dari MediaFire, output JSON termasuk creator dan link file",
+  "desc": "Download file dari MediaFire.",
   "path": "/download/mediafire?url=",
   "status": "ready",
   "example": "/download/mediafire?url=https://www.mediafire.com/file/dd03rakruw4soks/aimlock+ramadhan+5.7z/file"
 },
 {
   "name": "TikTok Downloader",
-  "desc": "Download video TikTok tanpa watermark, output JSON termasuk creator dan link video",
+  "desc": "Download video TikTok tanpa watermark.",
   "path": "/download/tiktok?url=",
   "status": "ready",
   "example": "/download/tiktok?url=https://vt.tiktok.com/ZSDH914mx/"
