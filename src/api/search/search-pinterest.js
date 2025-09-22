@@ -2,7 +2,7 @@ const axios = require('axios');
 
 module.exports = function(app) {
   // Endpoint Pinterest Search
-  app.get('/search/pin', async (req, res) => {
+  app.get('/search/pinterest', async (req, res) => {
     const q = req.query.q;
     if (!q) {
       return res.json({
@@ -25,7 +25,7 @@ module.exports = function(app) {
       // Bungkus responsenya
       res.json({
         status: true,
-        creator: data.creator,
+        creator: "Alpiann",
         result: data.result
       });
 
