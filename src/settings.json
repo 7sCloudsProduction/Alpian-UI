@@ -1,0 +1,125 @@
+{
+  "name": "Alpian-APIs",
+  "version": "v1.2.0",
+  "description": "Simple and easy to use API.",
+  "bannerImage": "/src/banner.jpg",
+  "header": {
+    "status": "Online!"
+  },
+  "apiSettings": {
+    "creator": "Alpiannnn",
+    "apikey": ["alpian"]
+  },
+  "categories": [
+    {
+      "name": "AI (Artificial Intelligence)",
+      "items": [
+        {
+          "name": "LuminAI",
+          "desc": "Talk with luminai",
+          "path": "/ai/luminai?text=",
+          "status": "ready",
+          "params": {
+            "text": "Text for luminai to respond to"
+          }
+        },
+        {
+          "name": "Gemini",
+          "desc": "AI Assistant by Alpian – chat dengan Gemini AI",
+          "path": "/ai/gemini?text=",
+          "status": "ready",
+          "params": {
+            "text": "Teks atau perintah untuk chat AI"
+          }
+        },
+        {
+          "name": "HydroMind",
+          "desc": "See the list of supported AI models here: https://mind.hydrooo.web.id",
+          "path": "/ai/hydromind?text=&model=",
+          "status": "eror",
+          "params": {
+            "text": "Teks atau perintah untuk chat AI",
+            "model": "Lihat daftar model di https://mind.hydrooo.web.id"
+          }
+        }, 
+    {
+      "name": "OpenAI O3",
+      "desc": "Advanced reasoning AI model O3",
+      "path": "/ai/o3?text=halo",
+      "status": "ready"
+    },
+    {
+      "name": "OpenAI O4-Mini",
+      "desc": "Lightweight reasoning AI model O4-Mini",
+      "path": "/ai/o4-mini?text=hai",
+      "status": "ready"
+    }
+      ]
+    },
+    
+    {
+      "name": "Random",
+      "items": [
+        {
+          "name": "Blue Archive",
+          "desc": "Blue Archive Random Images",
+          "path": "/random/ba",
+          "status": "ready"
+        },
+        {
+          "name": "Emoji Mix",
+          "desc": "Combine two emojis into one image",
+          "path": "/random/emojimix?emoji1=🥵&emoji2=😳",
+          "status": "ready"
+        }
+      ]
+    },
+    {
+      "name": "Image Generator",
+      "items": [
+        {
+          "name": "Brat Maker",
+          "desc": "Generate brat style image with custom text (requires text param)",
+          "path": "/maker/brat?text=hai",
+          "status": "ready",
+          "params": {
+            "text": "Text for brat style image"
+          }
+        }
+      ]
+    },
+    {
+    "name": "Downloader",
+    "items": [
+    {
+  "name": "MediaFire Downloader",
+  "desc": "Download file dari MediaFire, output JSON termasuk creator dan link file",
+  "path": "/download/mediafire?url=",
+  "status": "ready",
+  "example": "/download/mediafire?url=https://www.mediafire.com/file/dd03rakruw4soks/aimlock+ramadhan+5.7z/file"
+},
+{
+  "name": "TikTok Downloader",
+  "desc": "Download video TikTok tanpa watermark, output JSON termasuk creator dan link video",
+  "path": "/download/tiktok?url=",
+  "status": "ready",
+  "example": "/download/tiktok?url=https://vt.tiktok.com/ZSDH914mx/"
+}
+]
+},
+    {
+      "name": "Search Tools",
+      "items": [
+        {
+          "name": "YouTube",
+          "desc": "Video search",
+          "path": "/search/youtube?q=",
+          "status": "ready",
+          "params": {
+            "q": "Search query"
+          }
+        }
+      ]
+    }
+  ]
+}
