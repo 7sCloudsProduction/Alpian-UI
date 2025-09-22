@@ -155,6 +155,16 @@
     "url": "Link YouTube yang ingin diunduh"
   },
   "example": "/download/ytmp3?url=https://youtube.com/watch?v=iQo-8wx0l0Y"
+      },
+      {
+  "name": "YouTube MP4",
+  "desc": "Download video dari YouTube dalam format MP4",
+  "path": "/download/ytmp4?url=",
+  "status": "ready",
+  "params": {
+    "url": "Link YouTube yang ingin diunduh"
+  },
+  "example": "/download/ytmp4?url=https://youtube.com/watch?v=iQo-8wx0l0Y"
       }
 ]
 },
