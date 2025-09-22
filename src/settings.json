@@ -102,6 +102,16 @@
           "params": {
             "text": "Text for brat style image"
           }
+        },
+        {
+  "name": "Carbonify",
+  "desc": "Generate carbon image (code snippet) using Carbonara API",
+  "path": "/maker/carbon?text=",
+  "status": "ready",
+  "params": {
+    "text": "Teks kode yang ingin dijadikan gambar"
+  },
+  "creator": "Alpiann"
         }
       ]
     },
