@@ -231,6 +231,21 @@
   "example": "/search/pinterest?q=anime"
         }
       ]
+    },
+    { 
+      "name": "Stalking",
+      "items": [
+        {
+  "name": "Twitter Stalker",
+  "desc": "Scrape profil dan tweet publik user Twitter",
+  "path": "/random/twitter?username=",
+  "status": "ready",
+  "params": {
+    "username": "Username Twitter yang ingin dicari"
+  },
+  "creator": "Alpiann"
+}
+      ]
     }
   ]
 }
