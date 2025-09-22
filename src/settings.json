@@ -42,6 +42,17 @@
             "model": "Lihat daftar model di https://mind.hydrooo.web.id"
           }
         }, 
+        {
+  "name": "AI Custom",
+  "desc": "Chatbot AI dengan nama, logic, dan message custom",
+  "path": "/ai/aicustom?name=&logic=&message=",
+  "status": "ready",
+  "params": {
+    "name": "Nama karakter AI (opsional)",
+    "logic": "Instruksi atau personality AI",
+    "message": "Pesan yang ingin dikirim ke AI"
+  }
+        },
     {
       "name": "OpenAI O3",
       "desc": "Advanced reasoning AI model O3",
