@@ -97,7 +97,28 @@
   "params": {},
   "example": "/random/pap",
   "output": "buffer (image/jpeg)"
-        }
+        },
+        
+  {
+    "name": "Random Waifu",
+    "desc": "Mengambil gambar random waifu. Sangean",
+    "path": "/random/waifu",
+    "status": "ready",
+    "params": {},
+    "example": "/random/waifu",
+    "output": "buffer (image/jpeg)",
+    "creator": "Alpiann"
+  },
+  {
+    "name": "Random Loli",
+    "desc": "Mengambil gambar random loli. Pedo",
+    "path": "/random/loli",
+    "status": "ready",
+    "params": {},
+    "example": "/random/loli",
+    "output": "buffer (image/jpeg)",
+    "creator": "Alpiann"
+  }
       ]
     },
     {
