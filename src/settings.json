@@ -90,10 +90,13 @@
           "status": "ready"
         },
         {
-  "name": "Pap Cewe",
-  "desc": "Dapetin Pap Dari Api Yakali Dari Dia",
+  "name": "Random Pap",
+  "desc": "Dapetin Pap Dari Api Yakali Dari Dia.",
   "path": "/random/pap",
   "status": "ready",
+  "params": {},
+  "example": "/random/pap",
+  "output": "buffer (image/jpeg)"
         }
       ]
     },
