@@ -231,6 +231,17 @@
           }
         },
         {
+  "name": "Anime Search",
+  "desc": "Cari informasi anime berdasarkan judul",
+  "path": "/search/animein?q=",
+  "status": "ready",
+  "params": {
+    "q": "Judul anime yang ingin dicari",
+    "limit": "Jumlah maksimal hasil pencarian (opsional, default 5)"
+  },
+  "creator": "Alpiann"
+        },
+        {
   "name": "Pinterest Search",
   "desc": "Cari gambar Pinterest berdasarkan keyword",
   "path": "/search/pinterest?q=",
