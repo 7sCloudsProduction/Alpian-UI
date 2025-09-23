@@ -144,6 +144,19 @@
           }
         },
         {
+  "name": "iPhone Quoted Chat",
+  "desc": "Generate tampilan quoted chat ala iPhone dengan custom jam, baterai, operator, dan pesan.",
+  "path": "/maker/iqc?time=&battery=&carrier=&message=",
+  "status": "ready",
+  "params": {
+    "time": "Waktu yang ditampilkan (contoh: 18:00)",
+    "battery": "Persentase baterai (contoh: 40)",
+    "carrier": "Nama operator (contoh: INDOSAT)",
+    "message": "Teks pesan yang ingin ditampilkan"
+  },
+  "creator": "Alpiann"
+        },
+        {
   "name": "Carbonify",
   "desc": "Generate carbon image (code snippet) using Carbonara API",
   "path": "/maker/carbon?text=",
