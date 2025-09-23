@@ -144,6 +144,16 @@
           }
         },
         {
+  "name": "Encrypt Invisible",
+  "desc": "Enkripsi file JS/TS/MJS/CJS menggunakan preset Invisible Hardened",
+  "path": "/maker/enc?url=",
+  "status": "ready",
+  "params": {
+    "url": "URL file JS/TS/MJS/CJS yang ingin dienkripsi"
+  },
+  "creator": "Alpiann"
+        },
+        {
   "name": "iPhone Quoted Chat",
   "desc": "Generate tampilan quoted chat ala iPhone dengan custom jam, baterai, operator, dan pesan.",
   "path": "/maker/iqc?time=&battery=&carrier=&message=",
