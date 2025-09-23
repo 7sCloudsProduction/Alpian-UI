@@ -43,6 +43,16 @@
           }
         }, 
         {
+  "name": "Gemma2 AI",
+  "desc": "Chat dengan AI Gemma2 berbasis model open-source",
+  "path": "/ai/gemma2?text=",
+  "status": "ready",
+  "params": {
+    "text": "Teks yang ingin dikirim ke AI Gemma2"
+  },
+  "creator": "Alpiann"
+        },
+        {
   "name": "AI Custom",
   "desc": "Chatbot AI dengan nama, logic, dan message custom",
   "path": "/ai/aicustom?name=&logic=&message=",
